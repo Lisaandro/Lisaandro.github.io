@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/ordenador-portatil.png" type="img/x-icon">
+    <title>Portafolio</title>
+</head>
+
+<body>  
+    <!-- SECCION INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1><a href="#inicio">Lisandro Barrera Lopez</a></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">SKILLS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.facebook.com/lisandro.barrera.12"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/lee_sandroo/"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">       
+                <p class="bienvenida">Bienvenidos</p>
+                <h2><span>Lisandro Barrera Lopez</span><br>Tecnico en Computación e Informática </h2>
+                <p class="descripcion">  </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">  
+        <div class="sobremi">
+            <img src="img/yo2.jpeg" alt="">
+            <p class="titulo-seccion">Sobre Mi</p>           
+            <h2>Hola, Soy <span>Lisandro Barrera Lopez</span> </h2>
+            <h3>Programador Junior </h3>
+            <p style="text-align: justify;">Titulado de Técnico nivel Superior de Computación e Informática en el CFT PUCV. Le gusta ir desarrollándose cada día mas lo cual lo hace ser una persona proactiva y comprometida con su trabajo. Se relaciona de buena manera con los compañeros de equipo. Aprende de las personas con mas experiencia lo cual le ayuda a facilitar su trabajo aprendiendo de las buenas practicas. </p> 
+            <a href="/CV_LisandroBarrera.pdf" download>Curriculum Vitae</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h2>HABILIDADES </h2>
+        <div class="skill">
+            <div class="info">
+                <p> <i class="fa-brands fa-angular"></i> <span class="lista"> </span> ANGULAR</p>
+                <span class="porcentaje">BASICO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <i class="fa-brands fa-python"></i><span class="lista"> </span> PYTHON</p>
+                <span class="porcentaje">MEDIO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-solid fa-laptop-code"></i> <span class="lista"> </span> C++</p>
+                <span class="porcentaje">INTERMEDIO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-solid fa-laptop-code"></i> <span class="lista"> </span> C#</p>
+                <span class="porcentaje">INTERMEDIO</span>
+            </div>
+        </div>
+  
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-brands fa-java"></i> <span class="lista"> </span> JAVA</p>
+                <span class="porcentaje">BASICO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                
+                <p><i class="fa-brands fa-js"></i> <span class="lista"> </span> JAVASCRIPT</p>
+                <span class="porcentaje">INTERMEDIO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-brands fa-laravel"></i> <span class="lista"> </span> LARAVEL</p>
+                <span class="porcentaje">INTERMEDIO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-sharp fa-solid fa-database"></i><span class="lista"> </span> MYSQL</p>
+                <span class="porcentaje">INTERMEDIO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-brands fa-node"></i> <span class="lista"> </span> NODE.JS</p>
+                <span class="porcentaje">BASICO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-brands fa-php"></i> <span class="lista"> </span> PHP</p>
+                <span class="porcentaje">INTERMEDIO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-sharp fa-solid fa-database"></i> <span class="lista"> </span> SQL SERVER</p>
+                <span class="porcentaje">INTERMEDIO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-brands fa-react"></i> <span class="lista"> </span>REACT</p>
+                <span class="porcentaje">BASICO</span>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><i class="fa-solid fa-laptop-code"></i> <span class="lista"> </span>VISUAL BASIC</p>
+                <span class="porcentaje">BASICO</span>
+            </div>
+        </div>
+    
+      
+   
+
+    
+       
+      
+  
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/midas.png" alt="">
+                <div class="info">
+                    <h4 >
+                        <a href="https://qa.midas.la/" target="_blank" style="text-decoration: none; color:#ff5080">
+                            MIDAS CHILE
+                        </a></h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/taxiticket.png" alt="">
+                <div class="info">
+                    <h4 >
+                        <a href="https://www.taxiticket.wdgr.cl/" target="_blank" style="text-decoration: none; color:#ff5080">
+                            TAXI TICKET
+                        </a></h4>
+                </div>
+            </div>
+           
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/libro_.png" alt="">
+                <div class="info">
+                    <h4>Libro de Clases Digital</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/crud.png" alt="">
+                <div class="info">
+                    <h4>CRUD ANGULAR</h4>
+                </div>
+            </div>
+        
+        </div>
+      
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - Lisandro Barrera Lopez 2022</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/lisandro.barrera.12"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/lee_sandroo/"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
